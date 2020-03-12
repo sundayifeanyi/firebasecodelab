@@ -1,0 +1,22 @@
+[debug] [2020-03-12T22:20:59.454Z] ----------------------------------------------------------------------
+[debug] [2020-03-12T22:20:59.457Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only hosting
+[debug] [2020-03-12T22:20:59.458Z] CLI Version:   7.14.0
+[debug] [2020-03-12T22:20:59.458Z] Platform:      win32
+[debug] [2020-03-12T22:20:59.458Z] Node Version:  v13.3.0
+[debug] [2020-03-12T22:20:59.460Z] Time:          Thu Mar 12 2020 23:20:59 GMT+0100 (West Africa Standard Time)
+[debug] [2020-03-12T22:20:59.460Z] ----------------------------------------------------------------------
+[debug] [2020-03-12T22:20:59.460Z] 
+[debug] [2020-03-12T22:20:59.472Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-12T22:20:59.473Z] > authorizing via signed-in user
+[debug] [2020-03-12T22:20:59.473Z] [iam] checking project friendlyeats-be3a9 for permissions ["firebase.projects.get"]
+[debug] [2020-03-12T22:20:59.476Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/friendlyeats-be3a9:testIamPermissions  
+
+[debug] [2020-03-12T22:21:01.282Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-12T22:21:01.291Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/friendlyeats-be3a9  
+ 
+[debug] [2020-03-12T22:21:02.292Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-12T22:21:02.297Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/friendlyeats-be3a9/webApps/-/config  
+ 
+[debug] [2020-03-12T22:21:03.418Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
